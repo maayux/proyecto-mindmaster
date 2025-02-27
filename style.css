@@ -1,0 +1,58 @@
+body1 {
+font-family: Arial, sans-serif;
+text-align: center;
+background-image: url('Imagen1.png');
+background-size: cover;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+}
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+background: linear-gradient(to right, #c105fa, #470099);
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+}
+
+.menu-container {
+background: rgb(255, 255, 255);
+padding: 40px;
+border-radius: 25px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.733);
+max-width: 300px;
+max-height: 300px;
+}
+h1 {
+color: #6f00ff;
+}
+a {
+font-size: 18px;
+color: rgb(255, 255, 255);
+width: 200%;
+padding: 10px;
+margin: 20px 0;
+background: #5900ff;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+transition: 0.5s;
+}
+a:hover {
+background: #990000;
+}
+.boton-absolute {
+background: white;
+padding-top: 40px;
+padding-bottom:600px;
+padding-left: 100px;
+padding-right: 100px;
+border-radius: 15px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+max-width: 300px;
+}
